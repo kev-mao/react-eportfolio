@@ -14,6 +14,7 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  
   return (
     <div className = "name__navbar">
         <div className = "name__navbar-links_logo">
@@ -30,7 +31,7 @@ const Navbar = () => {
           : <RiMenu3Line color="#121212" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className="name__navbar-menu_container fade-in-top">
+          <div className="name__navbar-menu_container scale-in-hor-right">
             <div className="name__navbar-menu_container-links">
               <Menu />
             </div>
