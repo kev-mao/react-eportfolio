@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import headshot from "../../assets/headshot.png";
+import headshot from "../../assets/kev_sketch.png";
 import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {

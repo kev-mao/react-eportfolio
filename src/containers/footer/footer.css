@@ -1,0 +1,9 @@
+.credits p{
+    font-family: var(--font-family);
+    display: flex;
+    font-size: 10px;
+    font-weight: lighter;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
