@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import headshot from "../../assets/kev_sketch.png";
+import headshot from "../../assets/kev_image_transparent.png";
 import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
@@ -12,7 +12,6 @@ const Header = () => {
           sequence={[
             "Hi, I'm Kevin Mao." 
           ]}
-
       wrapper="span"
       speed={30}
       />
@@ -24,7 +23,7 @@ const Header = () => {
             "I am a Computer Engineering student at UWaterloo." 
           ]}
       wrapper="span"
-      speed={35}
+      speed={50}
       />
       </p>
       </div>
