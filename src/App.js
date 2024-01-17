@@ -46,19 +46,14 @@ function App(){
       <div className = "gradient__bg">
         <Navbar />
         <Header />
+
         </div>
-      <ScrollContainer>
-        <ScrollPage>
-          <Animator animation={FadeIn()}>
             <About />
             <Projects />
             <Experience />
             <Contact />
             <Footer /> 
-          </Animator>
-        </ScrollPage>
-      </ScrollContainer>
-      </div>
+        </div>
   );
 }
 

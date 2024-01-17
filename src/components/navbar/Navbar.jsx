@@ -16,7 +16,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   
   return (
-    <div className = "name__navbar">
+    <div className = "name__navbar backdrop_blur">
         <div className = "name__navbar-links_logo">
           <a href="#top"><img src={logo} alt="logo" />  </a>
         </div>
