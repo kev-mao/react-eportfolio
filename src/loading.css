@@ -15,20 +15,8 @@
     transition: opacity 1s ease;
   }
   
-  .typing-animation {
-    border-right: 2px solid black;
-    animation: typing 3s steps(10), blink-caret 1s step-end infinite;
-  }
   
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 9ch } /* Adjust ch based on characters in 'npm start' */
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-  }
+
   
   .fade-out {
     -webkit-animation: fade-out 1s ease-out both;
