@@ -9,6 +9,23 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Mo
 
 //  npm start
 // vercel
+let timeout; // Variable to track the timeout
+
+
+function handleScroll() {
+    if (timeout) clearTimeout(timeout);
+
+    document.body.classList.add('scrollbar-visible');
+
+    timeout = setTimeout(() => {
+        document.body.classList.remove('scrollbar-visible');
+    }, 1000); // Adjust the delay as needed
+}
+
+window.addEventListener('scroll', handleScroll);
+
+// Attach the event listener to the scroll event
+window.addEventListener('scroll', handleScroll);
 
 function App(){
   inject();
@@ -17,7 +34,7 @@ function App(){
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000); // Duration longer than the Loading animation
+    }, 4500); // Duration longer than the Loading animation
   }, []);
 
   if (loading) {

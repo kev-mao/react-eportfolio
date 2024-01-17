@@ -9,11 +9,15 @@ const Header = () => {
       <div className = "name__header-content">
         <h1 className="header__text"> 
         <TypeAnimation
+          preRenderFirstString={true}
           sequence={[
+            300,
+            "Hi,",
             "Hi, I'm Kevin Mao." 
           ]}
       wrapper="span"
       speed={30}
+      cursor={false}
       />
     </h1>
     
@@ -24,6 +28,7 @@ const Header = () => {
           ]}
       wrapper="span"
       speed={50}
+      cursor={false}
       />
       </p>
       </div>

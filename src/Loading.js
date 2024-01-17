@@ -15,11 +15,14 @@ function Loading() {
   return (
     <div className={`loading-screen ${fadeOut ? 'fade-out' : ''}`}>
     <TypeAnimation
+    preRenderFirstString={true}
     sequence={[
+      750,
+      ">",
       "> npm start"
     ]}
     wrapper="span"
-    speed={40}
+    speed={15}
   />
   </div>
   );
