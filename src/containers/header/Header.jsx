@@ -11,7 +11,7 @@ const Header = () => {
         <TypeAnimation
           preRenderFirstString={true}
           sequence={[
-            300,
+            600,
             "Hi,",
             "Hi, I'm Kevin Mao." 
           ]}
