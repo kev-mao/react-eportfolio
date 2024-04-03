@@ -1,5 +1,6 @@
 import React from 'react';
 import './project.css';
+import { FiGithub } from "react-icons/fi";
 
 const Project = ({ title, technology, description, imageUrl, gitUrl }) => {
   return (
@@ -9,7 +10,7 @@ const Project = ({ title, technology, description, imageUrl, gitUrl }) => {
         <p className="technology">{technology}</p>
         <p>{description}</p>
         <div className="git__button" href={gitUrl} >
-          <a href={gitUrl}> Github</a>
+          <a href={gitUrl}><FiGithub/></a>
         </div>
       </div>
       <div className="project-image">
