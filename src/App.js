@@ -48,7 +48,6 @@ function App(){
         <Header />
 
         </div>
-            <About />
             <Projects />
             <Experience />
             <Contact />
