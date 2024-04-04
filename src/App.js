@@ -25,17 +25,23 @@ function App(){
   }
 
     return(
-    <div className = "App fade-in">
+      <>  
+        <div className = "App fade-in">
       <div className = "gradient__bg">
         <Navbar />
         <Header />
       </div>
-      <Experiences />
       <Projects />
       <Contact />
       <Footer /> 
 
-    </div>
+
+    </div>  
+          <Experiences />
+
+    
+        </>
+
   );
 }
 
