@@ -3,6 +3,11 @@
     to{scale: 1; opacity:1;}
   }
 
+@-webkit-keyframes fade-in-projects-heading{
+  from{scale: 0.8; opacity: 0;}
+   to{scale: 1; opacity:1;}
+}
+
 .projects__projects-heading{
     font-family: var(--font-family);
     display: flex;
