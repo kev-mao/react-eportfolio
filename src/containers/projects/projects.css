@@ -1,3 +1,8 @@
+@keyframes fade-in-projects-heading{
+    from{scale: 0.8; opacity: 0;}
+    to{scale: 1; opacity:1;}
+  }
+
 .projects__projects-heading{
     font-family: var(--font-family);
     display: flex;
@@ -7,12 +12,9 @@
     margin-bottom: 30px;
     padding-top: 30px;
 
-    animation: fade-in-projects-heading linear;
+    animation: fade-in-projects-heading linear forwards;
+    animation-timeline: view();
     animation-range-start: entry;
     animation-range-end: exit -500px;
 }
 
-@keyframes fade-in-projects-heading{
-    from{scale: 0.8; opacity: 0;}
-    to{scale: 1; opacity:1;}
-  }
