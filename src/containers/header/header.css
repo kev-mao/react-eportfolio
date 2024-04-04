@@ -1,5 +1,8 @@
 .name__header{
     display: flex;
+    animation: fade-out-header linear backwards;
+    animation-timeline: view();
+    animation-range: exit
 }
 
 .name__header-content{
@@ -76,4 +79,10 @@
         font-size: 14px;
         line-height: 24px;
     }
+}
+
+@keyframes fade-out-header{
+    from{scale: 1; opacity: 1;}
+    to{scale:0.8; opacity: 0;}
+
 }
