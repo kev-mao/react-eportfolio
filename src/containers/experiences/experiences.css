@@ -7,8 +7,7 @@
     margin-bottom: 30px;
     padding-top: 30px;
 
-    animation: fade-in-projects-heading linear forwards;
-    animation-timeline: view();
+    animation: fade-in-projects-heading linear;
     animation-range-start: entry;
     animation-range-end: exit -500px;
 }
