@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
+
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.jpg';
 import './navbar.css';
+import KevinMaoResume from '../../assets/KevinMaoResume.pdf';
 
 const Menu = () => (
   <>
@@ -9,6 +11,7 @@ const Menu = () => (
   <p><a href="#exp">Experience</a></p>
   <p><a href="#prjts">Projects</a></p>
   <p><a href="#contact">Contact</a></p>
+  <p><a className = "resume" onClick={() => window.open(KevinMaoResume)}>Resume</a></p>
   </>
 )
 
@@ -40,6 +43,7 @@ const Navbar = () => {
 
       </div>
     </div>
+
   )
 }
 

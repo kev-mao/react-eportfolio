@@ -126,8 +126,21 @@
     }
 }
 
-.backdrop-blur-\[0\.5rem\] {
+.backdrop-blur\[0\.5rem\] {
     --tw-backdrop-blur: blur(0.5rem);
     -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
     backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.resume{
+    background-color: #EEF2F8; /* Button background */
+    color: black; /* Text color */
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Cursor icon when hovering over the button */
+    width: fit-content;
+    font-family: var(--font-family);
+    font-weight: 1000;
+
 }
