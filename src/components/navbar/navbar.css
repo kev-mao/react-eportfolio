@@ -25,11 +25,13 @@
     display: flex;
     justify-content: flex-start;
     margin-right: 1rem;
+    
 }
 
 .name__navbar-links_logo img{
     width: 62px;
     height: 62px;
+    border-radius: 7%;
 }
 
 .name__navbar-links_container{

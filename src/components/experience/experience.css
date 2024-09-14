@@ -63,7 +63,7 @@
     font-family: var(--font-family);
     display: flex;
     margin: 2em;
-    background-color: #eeeeee ;
+    background-color: #f2f2f2 ;
     /* #EEF2F8; */
     border-radius: 20px;
     overflow: hidden;
@@ -84,7 +84,7 @@
   
 
   .experience:hover{
-        background-color:#e2e0e6;
+        background-color:#e9eaeb;
         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
         opacity: 100%;
   }
